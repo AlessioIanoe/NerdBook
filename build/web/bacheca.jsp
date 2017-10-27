@@ -8,7 +8,7 @@
     <head>
         <title>Nerdbook-Bacheca</title>
         <meta http-equiv = "content-type" content = "text/html; charset=utf-8" />
-        <meta name="author" content="Alessio Ianoe">
+        <meta name="author" content="Alessio Ianoe'">
         <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
         <script src="js/jquery-3.2.1.min.js"></script>
        <script src="js/javascript.js"></script>

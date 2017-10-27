@@ -18,7 +18,7 @@ public class Utente {
     private String nome;
     private String cognome;
     private Date dataNascita; 
-    private String biografia;
+    private String biografia; 
     private String password;
     private String urlFotoProfilo;
     private boolean superUtente;

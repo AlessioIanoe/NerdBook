@@ -22,7 +22,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  *
- * @author edef
+ * @author ianuk
  */
 
 @WebServlet(name = "Bacheca", urlPatterns = {"/Bacheca"})

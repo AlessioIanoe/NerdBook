@@ -1,4 +1,3 @@
-
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
@@ -8,7 +7,7 @@
     <head>
         <title>Nerdbook-Profilo</title>
         <meta http-equiv = "content-type" content = "text/html; charset=utf-8" />
-        <meta name="author" content="Alessio Ianoe">
+        <meta name="author" content="Alessio Ianoe'">
         <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="js/javascript.js"></script>

@@ -16,7 +16,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
+ * 
  * @author ianuk
  */
 public class UtenteFactory {
