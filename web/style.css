@@ -1,0 +1,1089 @@
+/**GENERALI**/
+
+html,body,#page{
+    position: relative;
+    background-color: #e4e4e4;
+    font: 17px/25px  "Tahoma", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#page{
+    position: relative;
+    background-color: white;
+    font: 17px/25px  "Tahoma", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header,footer{
+    background-color: #1e2426;
+    color:white;
+}
+
+
+h1{
+    color: white;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+h2{
+    font-family:"Verdana",Geneva,sans-serif;
+    margin-bottom: 0px;
+    color: #333333;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3{
+    font-family:"Verdana",Geneva,sans-serif;
+    color: #333333;
+    font-weight: bold;
+}
+
+p{
+    margin:0.1em; 
+}
+
+#title {
+    padding-left: 5px;
+    min-width:150px;
+    float: left;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+h1#title{
+    margin-top: 0px; 
+    color: #111111;
+    font-weight: bold;
+}
+
+header.perLogin{
+    height: 100px;
+}
+/**Descrzione e Login**/
+#titlebar{
+    
+    font:  "Tahoma", Arial,serif;
+    text-align: center;
+    background-color: #1e2426;
+    color: white;
+    font-size:3em;
+    line-height: 50px;
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#descrizione{
+    
+  text-align:  center;
+}
+#pageDescLog{
+   background-color: white;
+   height: auto;
+   width:900px;
+   margin-left:auto;
+   margin-right:auto;
+   
+}
+
+
+
+
+/*Visualizzazione campi input*/
+
+button{
+    padding: .5em;
+    color: white;
+    background-color: black;
+   }
+
+button:hover{
+    background-color: black;
+    
+}
+.bottoneLogin {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+   
+}
+
+.profilo a:link, .profilo a:visited {
+    font: 14px/25px  "Thaoma", Arial, sans-serif;
+    font-weight: bold;   
+}
+
+header{
+    top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: fixed;    
+    margin: auto;
+    width: 100%;
+    height: 70px;
+    display: block;
+    text-align: left;
+}
+
+header ul, header li{
+    padding-left: 0px;
+}
+
+.navbar { 
+    padding-left: 5px;
+    padding-right:5px;
+    float: left;
+    width: auto;
+    display: inline;
+}
+
+.navbar ol, .navbar li{
+    display: inline-block;
+    color: white;
+}
+
+.qui:link, .qui:visited {
+    font: 14px/25px  "Open Sans", Arial, sans-serif;
+    font-weight: bold;
+    margin-right: 5px;
+    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 1.0px 1.0px 1.0px grey;
+}
+
+.nqui:link, .nqui:visited, .nomeu, .logout ,.login{
+    font: 14px/25px  "Open Sans", Arial, sans-serif;
+    font-weight: bold;
+    margin-right: 5px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.logout{
+    text-decoration: underline;
+}
+
+.navleft{
+    float:left;
+    display: inline;
+}
+
+.navleft li:hover{
+    background-color: #F8F8FF;
+   ;
+}
+
+.navright{
+    margin-right: 1px;
+    display: inline;
+}
+
+.navright a{
+    margin-left: 5px;
+}
+
+.imgelemen{
+    width: 25px;
+    height: 25px;
+    
+}
+
+#sidebar ol #sidebar li #sidebar ul{
+    list-style-type: none;
+    margin-left: 0px; 
+    padding-left: 0px;
+}
+
+#gruppi li #persone li {
+    float:left;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#gruppi li:hover, #persone li:hover{
+    background-color: white;
+    float:left;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#persone #gruppi{
+    float:left;
+}
+
+#content{
+    display: block;
+    float:left;
+    height: 90%;   
+}
+
+.img_post img{
+    border-radius: 5px;
+    width: 100%; 
+    height: 50%;
+    margin-bottom: 5px;
+    overflow: hidden;
+    float:left;
+}
+
+.newpost,.confPost{
+    background-color: white;
+    float: left;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;       
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;       
+}
+
+.imgprofilo{
+    float:left;
+    height: 40px;
+    width: 40px;
+}
+
+.nameprofilo {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.testopost {
+    float:left;
+    clear: both;
+}
+
+#divlogin {
+    display: table;
+    clear: both;
+    box-shadow: 3px 3px 20px #333745;
+    border-radius: 10px;
+    font: 14px/25px  "Tahoma", Arial, sans-serif;
+    font-weight: bold;
+    color: #365899;
+}
+
+.form {
+    margin-top: 8px;
+    margin-bottom: 10px;     
+    padding: 10px;
+    float:left;
+    clear:both;
+}
+
+#divform label {
+    max-width:  360px;
+    min-width:  360px;
+    margin-left: 17px;
+    float:left;
+}
+
+#divform button{
+    color: white;
+    background-color: #000088;
+    text-shadow: 1px 1px 1px #000;
+    border: solid thin #333745;
+    border-radius: 5px;
+}
+
+.immaginiprofilo{
+    float:left;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    
+    transition: 0.2s;
+}
+
+.immaginiprofilo img, .imgprofilo img{
+    width: 100%;
+    height: 100%;
+}
+
+.areaform {
+    float:left;
+    width: 550px;
+    height: 550px;
+    padding: 10px;        
+}
+
+.textform{
+    width: 100%;
+    height: 27px;
+    float:left;
+    padding: 2px;
+    margin-top: 10px;
+    margin-left: 5px;
+    vertical-align:middle;
+    clear:both;
+}
+
+.textform input, .textform textarea{
+    float:right;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 2px;       
+}
+
+.textform label{
+    width: 200px;        
+}
+
+.form button{
+    margin-top: 20px;
+    margin-left: 5px;        
+}
+
+#loggedOut #invalidDataWarning{
+    margin-top: 5px;
+    font: 20px/25px  "Tahoma", Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
+#validate{
+    margin-bottom: 30px;   
+}
+
+#stato{
+    float: left;
+    height: 60px;
+    width: 108%;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#stato .imgelemen{
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#stato p{
+    display: inline-block;
+    float:left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#stato p strong{
+    margin-left: -10px;
+}
+
+.newpost,.confPost{
+    margin-left: 50px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    clear: both;
+}
+
+#divnuovopost{
+    background-color: white;
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    padding-left: 15px;
+    padding-right: 15px;        
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    clear: both;
+}
+
+#confermaPost{
+    float: left;
+}
+
+.nuovopost input, .nuovopost textarea{
+    float:right;
+    width: 90%;      
+    border-radius: 5px;
+    padding-left: 2px;       
+}
+
+.nuovopost textarea{
+    height: 60px;            
+}
+
+.nuovopost input{
+    margin-top: 2px;
+    height: 20px;            
+}
+
+.nuovopost button{
+    float: right;
+    margin-top: 2px; 
+}
+
+.nuovopost h2{
+    font-size: 18px;
+}
+
+.nuovopost h3{
+    font: 14px/25px  "Tahoma", Arial, sans-serif;
+    font-weight: bold;
+    color: #365899;
+}
+
+#sidebar1{  
+    width:180px;
+    float:left;
+    margin-left: 2%;
+    margin-top: 80px;
+    margin-left: 5px;
+    height: 88%;
+    float: left;
+    position: fixed;
+    background-color: #F8F8FF;
+    clear: both;
+    padding: 5px;
+    padding-top:15px;
+    border:solid;
+}
+
+#sidebar1 h2{
+    margin-left:20px;
+}
+
+#descrizione{
+    margin-top: 35px;
+    margin-left: 10%;
+}
+
+#descrizione h3{
+    margin-top: 15px; 
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+#divlogin{
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+#divform{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.link_post{
+    float: left;
+}
+
+@media only screen and (min-width: 1024px){
+
+    header{
+        box-shadow: 3px 3px 3px #333745;
+    }
+
+    #title {
+        font-size: 40px;
+        padding-top: 21px;
+    }
+
+    #navbar{
+        height: 70px;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navleft{
+        margin-left: 50px;
+        height: 75px;
+        width: 600px;
+    }
+
+    .navleft ul, .navleft li{
+        margin-top: 0px;
+        height: 71px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 25px;
+        line-height: 80px;
+    }
+
+    .navright{
+        float:right;
+        height: 70px;
+        width: 200px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .nomeu{
+        margin-right: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 16px;
+    }
+
+    .logout{
+        margin-right: 15px;
+        margin-top: 0px;
+        font-size: 12px;
+    }
+
+    #sidebar{
+        margin-top: 85px;
+        margin-left: 5px;
+        width:150px;
+        height: 88%;
+        float: left;
+        position: fixed;
+        padding: 5px;
+    }
+
+    #sidebar{
+        overflow: hidden;
+        white-space:nowrap;
+        background-color: #e9ebee;
+        box-shadow: 3px 3px 20px #333745;
+        border-radius: 10px;
+        clear: both;
+        z-index: 1;
+    }
+
+    .barralaterale a:link, .barralaterale a:visited {
+        font: 14px/25px  "Open Sans", Arial, sans-serif;
+        font-weight: bold;
+        color: #365899;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    #content{
+        margin-top: 81px;
+        margin-left: 160px;
+        width: 80%;
+        padding-left: 1px;
+    }
+
+    #stato{
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+
+    #divnuovopost,.newpost,.confPost{
+        width:500px;
+        margin-left: 150px;
+    }
+
+    #confermaPost{
+        width:500px;
+        margin-left: 180px;
+        font-size: 15px;
+    }
+
+    .nameprofilo {
+        height: 40px;
+        width: 100%;
+        margin-left: 45px; 
+    }
+
+
+    #texar input{
+        max-width:  360px;
+        min-width:  360px;
+        margin-left: 17px;   
+        float:left;
+    }
+    
+    #texar button{
+        width:  360px;
+    }
+
+    #divform button{
+        margin-top: 18px;
+        margin-left: 20px;
+        width: 370px;
+    }
+
+    .form {
+        min-width:500px;
+        margin-left: 20px;
+    }
+
+    .textform input, .textform textarea{
+        width: 55%;       
+    }
+
+    .form button{
+        width: 100%;       
+    }
+
+    #sidebar #barraRicerca{
+        display: inline-block;
+        width: 150px;
+        margin-top:0px;
+
+    }
+
+    #sidebar input{
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 136px;
+        height: 20px;
+    }
+
+    #sidebar button{
+        width: 150px;
+        float: left;
+        margin-top: 5px;
+        height: 30px;
+    }
+
+    #sidebar, #invalidDataWarning{
+        font-size: 16px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+
+    header{
+        box-shadow: 3px 3px 3px #333745;
+        overflow: hidden;
+    }
+
+    #navbar{
+        height: 70px;
+    }
+
+    #title {
+        font-size: 35px;
+        padding-top: 20px;
+    }
+
+    .navleft{
+        position: relative;
+        top: 0px;
+        left: 18px;
+        display: inline-block;
+        height: 75px;
+    }
+
+    .nqui{
+        padding-left: 4px;
+    }
+
+    .navleft ul, .navleft li{
+        margin-top: 0px;
+        height: 70px;
+        font-size: 23px;
+        line-height: 70px;
+    }    
+
+    .navright{
+        float:right;
+        height: 70px;
+        width: 160px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .nomeu{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+
+    .logout{
+        margin-right: 15px;
+        margin-top: 0px;
+        font-size: 12px;
+    }
+
+    #sidebar{
+        margin-top: 85px;
+        margin-left: 5px;
+        width:150px;
+        height: 88%;
+        float: left;
+        position: fixed;
+        padding: 5px;
+    }
+
+    #sidebar{
+        overflow: hidden;
+        white-space:nowrap;
+        background-color: #e9ebee;
+        box-shadow: 3px 3px 20px #333745;
+        border-radius: 10px;
+        clear: both;
+        z-index: 1;
+    }
+
+    .barralaterale a:link, .barralaterale a:visited {
+        font: 14px/25px  "Open Sans", Arial, sans-serif;
+        font-weight: bold;
+        color: #365899;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    #content{
+        margin-top: 81px;
+        margin-left: 160px;
+        width: 80%;
+        clear: both;
+    }
+
+    #stato{
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+
+    #divnuovopost,.newpost,.confPost{
+        width:500px;
+        margin-left: 150px;
+    }
+
+    #confermaPost{
+        width:500px;
+        margin-left: 180px;
+        font-size: 14px;
+    }
+
+    .nameprofilo {
+        height: 40px;
+        width: 100%;
+        margin-left: 45px; 
+    }
+
+    #divlogin {
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width:  400px;
+        min-height:  400px;
+        max-height:  400px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #texar input{
+        max-width:  360px;
+        min-width:  360px;
+        margin-left: 17px;   
+        float:left;
+    }
+
+    #divform button{
+        margin-top: 18px;
+        margin-left: 20px;
+        width: 370px;
+    }
+
+    .form {
+        min-width:500px;
+        margin-left: 20px;
+    }
+
+    .textform input, .textform textarea{
+        width: 55%;          
+    }
+
+    .form button{
+        width: 100%;       
+    }
+    
+    #sidebar #barraRicerca{
+        display: inline-block;
+        width: 150px;
+        margin-top:10px;
+
+    }
+
+    #sidebar input{
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 136px;
+        height: 20px;
+    }
+
+    #sidebar button{
+        width: 150px;
+        float: left;
+        margin-top: 5px;
+        height: 30px;
+    }
+    
+    #sidebar #invalidDataWarning{
+        font-size: 16px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+
+    header,#navbar,.navleft,.navright{
+        height: 90px;
+    }
+
+    header,#navbar{
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        margin: 0px;
+        width: 100%;
+        box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    }
+
+    #title {
+        font-size: 30px;
+    }
+
+    .navleft{
+        position: absolute;
+        top: 55px;
+        left: 0px;
+        display: inline-block;
+        height: 35px;
+        width:100%;
+    }
+
+    .navleft ul{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        height: 28px;
+    }
+
+    .navleft li{
+        height: 31px;
+        width: 49%;
+        margin: 0px;
+    }
+
+    .navleft ul, .navleft li{
+        text-align: center;
+        display: inline-block;
+    }
+
+    .navright{
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 140px;
+        height: 53px;
+        text-align: center;
+        margin-right: 15px;
+    }
+
+    .login{
+        font-size: 12px;
+    }
+
+    .imgelemen{
+        display: none;
+    }
+
+    .nomeu{
+        position: absolute;
+        top: 5px;
+        margin: 0px;
+        padding-top: 5px;
+        font-size: 11px; 
+    }
+
+    .logout{
+        position: relative;
+        height:25px;
+        top: 9px;
+        left:6px;
+        font-size: 9px;
+        padding-top:5px; 
+    }
+    
+    #stato,#divnuovopost,.newpost{
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+
+    #stato{
+        position: relative;
+        float: left;
+        height: 60px;
+        width: 430px;
+        padding: 0px;
+        display: inline-block;
+    }
+
+    #divnuovopost,.newpost{    
+        position: relative;
+        display: inline-block;
+    }
+
+    #confermaPost{
+        width: 400px;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .img_post img{
+        margin-top: 5px
+    }
+
+    #sidebar1{
+        display: none;
+    }
+
+    #descrizione{
+        margin-left: 0;
+        margin-top: 115px;
+    }
+
+    #divnuovopost, .newpost,.confPost{
+        margin-left:0% ;
+        width: 400px;
+    }
+    .confPost h3{
+        font-size: 12px
+    }
+    .confPost h2{
+        font-size: 13px;
+    }
+
+    #page{
+        top:0;  
+    }
+
+    #title {
+        height: 20px;
+        width:50px;
+        padding-top: 10px;
+        font-size: 33px;
+    }
+
+    #sidebar{
+        position:relative;
+        margin-top: 95px;
+        margin-left: 10px;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .barralaterale a:link, .barralaterale a:visited {
+        font-size:14px;  
+        font-family: "Open Sans", Arial, sans-serif;
+        font-weight: bold;
+        color: #365899;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    #sidebar input{
+        width: 96.5%;
+        margin-bottom: 5px;
+    } 
+
+    #sidebar button{
+        width: 100%;
+        float: left;
+        height: 30px;
+    }
+
+    #sidebar h3{
+        width: 100%;
+        text-align: center; 
+        font-size: 18px;
+    }
+
+    #sidebar #persone, #sidebar #gruppi{
+        width: 100%;
+    }
+
+    #sidebar #invalidDataWarning{
+        font-size: 18px;
+        margin-left: 0px;
+    }
+
+    #content{
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .nameprofilo {
+        height: 30px;
+        max-width: 100%;
+        margin-left: 5px; 
+    }
+
+    .imgprofilo{
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    #divlogin {
+        margin-top: 140px;
+        width: 80%; 
+        padding-top: 20px; 
+        padding-left: 0px; 
+    }
+
+    #texar input {
+        width: 90%;
+        margin-left: 3%;
+    }
+
+    #divform button {
+        margin-top: 18px;
+        margin-left: 3.5%;
+        width: 93%;
+    }
+
+    .form {
+        width: 85%;
+        min-width: 400px;
+        margin-left: 15px;
+        height: 570px;
+    }
+
+    .textform input, .textform textarea {
+        width: 25%;
+        margin-right: 35%;
+    }
+
+    .form button{
+        width: 65%;
+    }
+
+    .areaform,textarea,.form,.textform{
+        overflow: hidden;
+    }
+}
