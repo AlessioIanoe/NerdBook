@@ -3,13 +3,21 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/ianuk/Desktop/ProgettoAMM/NerdBook/web/bacheca.jsp</file>
-            <file>file:/C:/Users/ianuk/Desktop/ProgettoAMM/NerdBook/web/descrizione.jsp</file>
-            <file>file:/C:/Users/ianuk/Desktop/ProgettoAMM/NerdBook/web/WEB-INF/db/web.xml</file>
-            <file>file:/C:/Users/ianuk/Desktop/ProgettoAMM/NerdBook/web/listaUtentiJson.jsp</file>
-            <file>file:/C:/Users/ianuk/Desktop/ProgettoAMM/NerdBook/src/java/amm/nerdbook/classi/GruppoFactory.java</file>
-            <file>file:/C:/Users/ianuk/Desktop/ProgettoAMM/NerdBook/web/newpost.jsp</file>
-            <file>file:/C:/Users/ianuk/Desktop/ProgettoAMM/NerdBook/web/login.jsp</file>
+            <file>file:/C:/Users/ianuk/Desktop/NerdBook/src/java/amm/nerdbook/classi/GruppoFactory.java</file>
+            <file>file:/C:/Users/ianuk/Desktop/NerdBook/src/java/amm/nerdbook/classi/Gruppo.java</file>
+            <file>file:/C:/Users/ianuk/Desktop/NerdBook/src/java/amm/nerdbook/classi/Post.java</file>
+            <file>file:/C:/Users/ianuk/Desktop/NerdBook/src/java/amm/nerdbook/classi/UtenteFactory.java</file>
+            <file>file:/C:/Users/ianuk/Desktop/NerdBook/web/sidebar.jsp</file>
+            <file>file:/C:/Users/ianuk/Desktop/NerdBook/src/java/amm/nerdbook/Bacheca.java</file>
+            <file>file:/C:/Users/ianuk/Desktop/NerdBook/src/java/amm/nerdbook/Profilo.java</file>
+            <file>file:/C:/Users/ianuk/Desktop/NerdBook/web/post.jsp</file>
+            <file>file:/C:/Users/ianuk/Desktop/NerdBook/src/java/amm/nerdbook/Filter.java</file>
+            <file>file:/C:/Users/ianuk/Desktop/NerdBook/web/bacheca.jsp</file>
+            <file>file:/C:/Users/ianuk/Desktop/NerdBook/src/java/amm/nerdbook/Login.java</file>
+            <file>file:/C:/Users/ianuk/Desktop/NerdBook/src/java/amm/nerdbook/classi/Utente.java</file>
+            <file>file:/C:/Users/ianuk/Desktop/NerdBook/web/profilo.jsp</file>
+            <file>file:/C:/Users/ianuk/Desktop/NerdBook/web/style.css</file>
+            <file>file:/C:/Users/ianuk/Desktop/NerdBook/src/java/amm/nerdbook/classi/PostFactory.java</file>
         </group>
     </open-files>
 </project-private>
